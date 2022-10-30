@@ -1,0 +1,304 @@
+header {
+  position: fixed;
+
+  z-index: 199;
+
+  width: 100%;
+
+  margin: 0;
+}
+
+nav.container {
+  margin: 0;
+  max-width: 95%;
+  width: 100%;
+  clip-path: polygon(0 0, 0 100%, 97% 100%, 100% 0);
+  background-color: #83cb12;
+}
+.center {
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+
+  height: 88px;
+}
+
+nav .side-shape {
+  background-color: #83cb12;
+}
+
+nav .wrapper {
+  position: relative;
+
+  max-width: 100%;
+
+  padding: 0px 30px 0 30px;
+
+  height: 84px;
+
+  background-color: #fff;
+
+  /* line-height: 70px; */
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  clip-path: polygon(0 0, 0 100%, 97% 100%, 100% 0);
+}
+
+nav .m-show {
+  display: none;
+}
+
+nav .icon-box {
+  display: flex;
+
+  align-items: center;
+
+  height: 100%;
+
+  height: 88px;
+  column-gap: 10px;
+}
+
+nav .green-box2 {
+  background-color: #83cb12;
+
+  height: 82px;
+
+  align-items: center;
+
+  clip-path: polygon(0 0, 0 100%, 84% 100%, 100% 0);
+}
+
+nav .line {
+  margin: 0;
+
+  opacity: 1;
+
+  background: #83cb12;
+
+  height: 5px;
+}
+
+.wrapper .nav-links {
+  display: inline-flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+
+.nav-links li {
+  list-style: none;
+  margin: 16px;
+}
+
+.nav-links li a {
+  color: #1f1f1f;
+
+  text-decoration: none;
+
+  font-size: 20px;
+
+  padding: 9px 15px;
+
+  border-radius: 5px;
+
+  transition: all 0.3s ease;
+
+  font-family: DINMedium;
+}
+
+.nav-links li a:hover {
+  color: #83cb12;
+}
+
+.nav-links .mobile-item {
+  display: none;
+}
+
+.wrapper .btn {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.wrapper .btn.close-btn {
+  position: absolute;
+
+  right: 30px;
+
+  top: 10px;
+}
+
+nav input {
+  display: none;
+}
+
+nav .fab {
+  background-color: #83cb12;
+
+  color: #83cb12;
+
+  background: #fff;
+
+  width: 35px;
+
+  height: 35px;
+
+  border-radius: 50px;
+
+  -webkit-border-radius: 50px;
+
+  -moz-border-radius: 50px;
+
+  -ms-border-radius: 50px;
+
+  -o-border-radius: 50px;
+
+  display: grid;
+
+  place-content: center;
+
+  margin-left: 0.5rem;
+
+  transition: all 0.3s ease;
+}
+
+nav .links-icons {
+  transition: all 0.3s ease;
+}
+
+nav .links-icons:hover {
+  transform: scale(1.1);
+
+  -webkit-transform: scale(1.1);
+
+  -moz-transform: scale(1.1);
+
+  -ms-transform: scale(1.1);
+
+  -o-transform: scale(1.1);
+}
+
+@media screen and (max-width: 991px) {
+  nav.container {
+    max-width: 100%;
+    margin: 0;
+    width: 100%;
+    clip-path: none;
+    background-color: #83cb12;
+  }
+  #menu-btn:checked ~ .nav-links {
+    left: 0%;
+}
+  nav .wrapper {
+    max-width: 1200px;
+    align-items: center;
+    clip-path: none;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.wrapper .nav-links{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: 350px;
+    top: 0;
+    left: -100%;
+    background: #242526;
+    display: block;
+    padding: 50px 10px;
+    line-height: 50px;
+    overflow-y: auto;
+    box-shadow: 0px 15px 15px rgb(0 0 0 / 18%);
+    transition: all 0.3s ease;
+    margin: 0;
+}
+.wrapper .nav-link{
+  position: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: 350px;
+    top: 0;
+    left: 0;
+    background: #242526;
+    display: block;
+    padding: 50px 10px;
+    line-height: 50px;
+    overflow-y: auto;
+    box-shadow: 0px 15px 15px rgb(0 0 0 / 18%);
+    transition: all 0.3s ease;
+    margin: 0;
+
+}
+.wrapper .btn {
+    font-size: 24px;
+    display: block;
+}
+nav .m-show {
+    display: flex;
+    align-items: center;
+}
+.nav-links li {
+    margin: 15px 10px;
+}
+nav .m-show .links-icons {
+    padding: 0;
+    padding-left: 0.5rem;
+}
+nav .green-box2 {
+    display: none;
+}
+.mobileMenu{
+  padding: 0 20px;
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    font-family: DINMedium;
+    font-weight: 400;
+}
+}
+  
+
+@media screen and (max-width: 600px){
+    nav.wrapper {
+        padding: 0 20px;
+        align-items: center;
+      }
+}
+@media only screen and (max-width: 1135px){
+    .wrapper .nav-links {
+        margin-top: 6px;
+    }
+    nav .icon-box {
+        column-gap: 0px;
+    }
+}
+@media only screen and (max-width: 1135px){
+  nav.container {
+    max-width: 99%;
+}
+nav .wrapper {
+  padding: 0px 18px 0 10px;
+}
+.wrapper .nav-links {
+  margin-top: 6px;
+}
+}
+@media only screen and (max-width: 1405px){
+  nav.container {
+    max-width: 95%;
+}
+}
+@media only screen and (max-width: 1250px){
+  nav .wrapper {
+    padding: 0 20px 0 17px;
+}
+}

@@ -1,0 +1,38 @@
+footer {
+    background-color: #0b1609;
+  
+    height: 120px;
+  
+    text-align: center;
+  
+    position: relative;
+  
+    color: #fff;
+  
+    display: grid;
+  
+    place-content: center;
+   
+  }
+  
+  footer img {
+    position: absolute;
+  
+    right: 0px;
+    top: -159px;
+    width: 276px;
+  }
+  
+  footer a {
+    color: #fff;
+    transition: all 0.3s ease 0s;
+  }
+  
+  footer a:hover {
+    color: #83cb12;
+  }
+  
+  footer p {
+    font-size: 18px;
+  }
+  

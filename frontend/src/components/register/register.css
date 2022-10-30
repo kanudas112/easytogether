@@ -1,0 +1,92 @@
+
+
+
+.login-area{
+
+}
+.py-120{
+    padding: 120px 0;
+}
+.login-form {
+    padding: 50px;
+    background: #fff;
+    border-left: 3px solid #4F78AB;
+    box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
+}
+.login-form .login-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.login-form .form-group {
+    margin-bottom: 20px;
+}
+.login-form label {
+    color: #204066;
+    margin-bottom: 5px;
+    float: left;
+}
+label {
+    color: #999;
+    cursor: pointer;
+    font-weight: 400;
+}
+.login-form .form-group .form-control {
+    border: 1px solid #e8e8e8;
+    border-radius: 0px;
+    padding: 12px 18px;
+    box-shadow: none;
+    transition: .5s;
+}
+.login-form .forgot-pass {
+    color: #4F78AB;
+    transition: .5s;
+}
+.login-form .form-check-input {
+    margin-top: 6.3px;
+}
+.login-form .form-check-input {
+    box-shadow: none;
+    border-radius: 0px;
+}
+.login-form label {
+    color: #204066;
+    margin-bottom: 5px;
+}
+.login-form .forgot-pass {
+    color: #4F78AB;
+    transition: .5s;
+}
+.login-form .theme-btn {
+    width: 100%;
+}
+.theme-btn {
+    font-size: 16px;
+    color: #ffffff;
+    padding: 12px 25px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+    overflow: hidden;
+    z-index: 1;
+    border: none;
+    border-radius: 0px;
+    background: #4F78AB;
+    box-shadow: 0 3px 24px rgb(0 0 0 / 10%);
+}
+.login-form .login-footer {
+    margin-top: 40px;
+}
+.login-form .login-footer a {
+    color: #4F78AB;
+    transition: .5s;
+}
+
+@media only screen and (max-width: 991px){
+    .login-form {
+    padding: 40px 20px;
+}
+}

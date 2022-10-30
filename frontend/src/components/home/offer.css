@@ -1,0 +1,58 @@
+.feature-area{
+    position: relative;
+    z-index: 1;
+}
+.py-120{
+    padding: 120px 0;
+}
+.feature-item {
+    padding: 25px;
+    cursor: pointer;
+    background: #EFF8FB;
+    margin-bottom: 25px;
+    transition: all .5s ease-in-out;
+}
+.feature-item.active{
+    background: #4F78AB;
+}
+.feature-icon{
+    margin-bottom: 20px;
+    transition: all .5s ease-in-out;
+}
+.feature-item.active .feature-icon i{
+    color:#fff
+}
+.feature-icon img{
+    font-size: 55px;
+    color: #4F78AB;
+    line-height: 1;
+}
+.img{
+    height: 55px;
+    width: 55px;
+    color: #fff;
+    margin: 15px;
+}
+.feature-content h5 {
+    font-size: 22px;
+    margin-bottom: 8px;
+    color: #204066;
+}
+.feature-content h5:hover{
+    font-size: 22px;
+    margin-bottom: 8px;
+    color: #fff;
+}
+p{
+    margin: 0;
+}
+.feature-item.active p{
+    color: #fff;
+}
+.feature-item:hover {
+    background: #4F78AB;
+    transform: translateY(-10px);
+}
+.feature-item:hover .feature-icon {
+    transform: rotateX(360deg);
+}
